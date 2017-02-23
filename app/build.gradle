@@ -30,8 +30,15 @@ dependencies {
     // Displaying images
     compile 'com.github.bumptech.glide:glide:3.6.1'
 
-    //firebase
+    //database firebase only
     compile 'com.google.firebase:firebase-database:9.6.0'
+
+    //Authentication firebase
+    compile 'com.google.firebase:firebase-auth:9.6.1'
+
+    // FirebaseUI Auth only
+    compile 'com.firebaseui:firebase-ui-auth:0.6.0'
+
 
     testCompile 'junit:junit:4.12'
 }
